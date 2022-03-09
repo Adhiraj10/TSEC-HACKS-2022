@@ -1,4 +1,6 @@
-
+.container{
+    
+}
 .signup1{
     padding: 0;
     
@@ -9,8 +11,8 @@
 }
 .signup{
     margin-top: 150px;
-    height: 80vh;
-    width: 65vw;
+    height: 100vh;
+    width: 62vw;
 }
 
 body{
@@ -19,7 +21,7 @@ body{
 }
 
 .signup-img{
-    background-image: url(static/images/signupimg.jpg);
+    background-image: url(./images/signupimg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
