@@ -6,7 +6,7 @@ const port = 5000;
 
 app.use([express.static(path.join(__dirname, 'static')), express.urlencoded({ extended: false })]);
 
-app.get('*', (req, res) => {
+app.all('*', (req, res) => {
    res.status(404).send('<h1>PAGE NOT FOUND<h1>');
 })
 
