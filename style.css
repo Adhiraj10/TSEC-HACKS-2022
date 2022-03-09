@@ -1,0 +1,56 @@
+body{
+    font-size: 1.3rem;
+    
+}
+
+.navbar-brand{
+    font-size: 2.3rem;
+    color: white!important;
+}
+.navbar{
+    background-image: linear-gradient(to bottom ,rgba(0,0,0,1) ,rgba(0,0,0,0));
+    
+    z-index: 100;
+}
+
+.nav-item{
+    margin-left: 2.3em;
+    color: white!important;
+}
+.nav-link{
+    color: white!important;
+}
+
+.colour1{
+    background-color: #3c97a1;
+}
+
+
+.colour2{
+    background-color: #89aeb2;
+}
+.colour3{
+    background-color: #D4ccbb;
+}
+.colour4{
+    background-color: #Fc6d6d;
+}
+.font{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+    
+
+.section2{
+
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("images/4567334.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+    
