@@ -9,6 +9,12 @@ body{
 }
 .navbar{
     background-image: linear-gradient(to bottom ,rgba(0,0,0,1) ,rgba(0,0,0,0));
+    overflow: hidden;
+    position: absolute;
+    left: -1000px;
+    top: 0;
+    
+
     
     z-index: 100;
 }
@@ -24,48 +30,6 @@ body{
 .colour1{
     background-color: #3c97a1;
 }
-
-
-
-.signup1{
-
-    
-    border-radius: 8px 0px 0px 8px;
-    padding: 30px;
-    background-color: white;
-
-}
-
-.row{
-    
-    
-    border-radius: 5px;
-    width:auto;
-    padding: 0;
-}
-
-.signup{
-    border: solid black 2px;
-    margin-top: 0px;
-    height: 100vh;
-    width: 60vw;
-    
-}
-
-
-body{
-    
-    background-color: #fff;
-}
-
-.signup-img{
-    background-image: url(./images/signupimg.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-
 
 
 .colour2{
@@ -89,9 +53,58 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 0;
+   
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
+
+.signup1{
+ 
     
+    
+    border-radius: 8px 0px 0px 8px;
+    padding: 30px;
+    background-color: white;
+
+}
+
+.row{
+    
+
+    border-radius: 5px;
+    width:auto;
+    padding: 0;
+}
+
+.signup{
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    z-index: 100;
+    margin-top: 0px;
+    height: 60vh;
+    width: 60vw;
+    
+    
+}
+
+
+body{
+    
+    background-color: #fff;
+}
+
+.signup-img{
+    background-image: url(./images/signupimg.jpg);
+    
+ 
+    
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
