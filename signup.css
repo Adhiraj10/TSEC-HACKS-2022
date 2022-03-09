@@ -1,0 +1,31 @@
+
+.signup1{
+    padding: 0;
+    
+    border-radius: 8px 0px 0px 8px;
+    padding: 30px;
+    background-color: white;
+
+}
+.signup{
+    margin-top: 150px;
+    height: 80vh;
+    width: 65vw;
+}
+
+body{
+    
+    background-image: linear-gradient(to top,rgba(0,0,0,1) , rgba(0,0,0,0));
+}
+
+.signup-img{
+    background-image: url(static/images/signupimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.signup0{
+    
+    margin-top: 3%;
+}
