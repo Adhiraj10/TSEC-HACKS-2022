@@ -9,7 +9,7 @@
 }
 
 .row{
-    margin-top: 45px;
+    
     border: 2px solid black;
     border-radius: 5px;
     width:auto;
@@ -17,11 +17,10 @@
 }
 
 .signup{
-    
+    border: solid black 2px;
     margin-top: 0px;
     height: 100vh;
-    width: 50vw;
-    padding-top: 150px;
+    width: 60vw;
     
 }
 
