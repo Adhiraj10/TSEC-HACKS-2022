@@ -9,15 +9,12 @@
 }
 
 .row{
-    margin-top: 45px;
-    border: 2px solid black;
     border-radius: 5px;
     width:auto;
     padding: 0;
 }
 
 .signup{
-    
     margin-top: 0px;
     height: 100vh;
     width: 50vw;
