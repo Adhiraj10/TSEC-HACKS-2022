@@ -7,6 +7,8 @@
 
 }
 
+
+
 .col2{
     border: 5px black dotted;
 }*/
@@ -56,7 +58,7 @@
 }
 
 .section2{
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("./images/4567334.jpg");
   position: absolute;
   
@@ -66,34 +68,13 @@
  
   background-repeat: no-repeat;
   background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
+/* .input-box.bg-image {
+  background-image: url(/—Pngtree—programming\ development_3101244.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
  
-.footer{
-
-
-    
-    
-  position: absolute;
-  top: 100vh;
-  left: 0;
-  height: 35vh;
-  width: 100%;
-  padding: 50px;
-}
-.footer-link-container{
-
-  list-style: none;
-  
-
-
-
-}
-
-.footer-link-container li a{
-  
-  
-  text-decoration: none;
-}

@@ -28,7 +28,7 @@ const fetchProjects = async () => {
    }
 }
 
-app.post('/index', async (req, res) => {
+app.post('/main.html', async (req, res) => {
    const { email, password } = req.body;
    let flag = await emailVerification(email);
    if (flag == 'DELIVERABLE') {
@@ -37,7 +37,7 @@ app.post('/index', async (req, res) => {
          if (err) throw err;
          else {
             console.log('Data Inserted Successfully');
-            res.sendFile(path.join(__dirname, 'static/index.html'))
+            res.sendFile(path.join(__dirname, 'static/main.html'))
          }
 
       })
@@ -47,9 +47,13 @@ app.post('/index', async (req, res) => {
    }
 })
 
-app.get('/findprojects', async (req, res) => {
+app.get('/findev.ejs', async (req, res) => {
    let result = await fetchProjects();
    res.render('findev', { data: result.data })
+})
+
+app.get('/prof.html', (req, res) => {
+   res.status(200).sendFile(path.join(__dirname, 'static/prof.html'))
 })
 
 app.all('*', (req, res) => {
@@ -60,4 +64,3 @@ app.listen(port, () => {
    console.log(`App running on port ${port}`);
 })
 
-// module.exports = fetchProjects();

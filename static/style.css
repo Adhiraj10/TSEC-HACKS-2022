@@ -121,3 +121,18 @@ body{
     
     text-decoration: none;
 }
+
+.btn{
+    height: 100%;
+    width: 20%;
+}
+
+.btn:hover{
+    border: 1px solid #fc6d6d;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#top{
+    padding: 14px;
+}
