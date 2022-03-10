@@ -1,0 +1,74 @@
+/* .container {
+  /* background-color: ; 
+}
+
+.row2{
+    border: 5px red;
+
+}
+
+
+
+.col2{
+    border: 5px black dotted;
+}*/
+.col h2 {
+  text-align: left;
+  /* border: auto; */
+}
+
+  /* border: auto; */
+
+
+/* .col {
+  /* border: 5px black double; */
+
+/* .hello1 { */
+/* color: rgba(0, 0, 0, 0, 7); */
+/* } */
+
+.navbar-brand{
+  font-size: 2.3rem;
+  color: white!important;
+}
+.navbar{
+  background-image: linear-gradient(to bottom ,rgba(0,0,0,1) ,rgba(0,0,0,0));
+
+
+
+  
+  z-index: 100;
+}
+
+.nav-item{
+  margin-left: 2.3em;
+  color: white!important;
+}
+.nav-link{
+  color: white!important;
+}
+
+.profile-contianer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  width: 60vh;
+  z-index: 100;
+}
+
+.section2{
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("./images/4567334.jpg");
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  z-index: -1;
+ 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+ 
