@@ -7,8 +7,6 @@
 
 }
 
-
-
 .col2{
     border: 5px black dotted;
 }*/
@@ -27,6 +25,7 @@
 /* color: rgba(0, 0, 0, 0, 7); */
 /* } */
 
+<<<<<<< HEAD
 .navbar-brand{
   font-size: 2.3rem;
   color: white!important;
@@ -67,8 +66,14 @@
   z-index: -1;
  
   background-repeat: no-repeat;
+=======
+/* .bg-image {
+  background-image: url(/images/back.jpg);
+>>>>>>> 572ebdf9d030a0b81c27e18e8468d2284b4d18a1
   background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+<<<<<<< HEAD
 }
 
  
@@ -98,3 +103,6 @@
   
   text-decoration: none;
 }
+=======
+} */
+>>>>>>> 572ebdf9d030a0b81c27e18e8468d2284b4d18a1

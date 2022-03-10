@@ -1,6 +1,7 @@
 .proj_info{
     border: 1px solid black;
 }
+<<<<<<< HEAD
 .footer{
 
 
@@ -25,5 +26,10 @@
 .footer-link-container li a{
     
     
+=======
+
+a{
+    color: black;
+>>>>>>> 572ebdf9d030a0b81c27e18e8468d2284b4d18a1
     text-decoration: none;
 }
