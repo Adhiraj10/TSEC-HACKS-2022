@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <script src="./script.js" defer></script> -->
+
+    <title>FindDev</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2 class="m-5">Find an Open-Source Project for your preferred language</h2>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <button class="btn m-2 btn-outline-success btn-lg" name="python" value="python"
+                    id="python">Python</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="js" id="js">JavaScript</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="java" id="java">Java</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="cpp" id="cpp">C++</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="c" id="c">C</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="php" id="php">PHP</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="html" id="html">HTML</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="css" id="css">CSS</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="ts" id="ts">TypeScript</button>
+                <button class="btn m-2 btn-outline-success btn-lg" name="ruby" id="ruby">Ruby</button>
+
+            </div>
+
+
+            <div class="col-md-7" style="border-left: 1px black solid; ">
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3>
+                            <a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>
+                            language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3>
+                            <a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3><a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a></h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3><a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a></h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3><a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a></h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                                </h3>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3><a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a></h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style="border-radius: 8px;  border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3><a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a></h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row m-2  proj_info"
+                    style=" border-radius: 8px; border-right: 1px black solid; border-bottom: 1px black solid; ">
+                    <div class="heading_proj">
+                        <h3><a href="<%= data[0].url %>" target="_blank">
+                                <%= data[0].name %>
+                            </a></h3>
+                    </div>
+                    <div class="description_proj">
+                        <h5>
+                            <%= data[0].description%>
+                        </h5>
+                    </div>
+                    <div class="lang_proj">
+                        <h6>language: <%= data[0].language %>
+                        </h6>
+                    </div>
+                </div>
+                <!-- <% var idk=data; %> -->
+                <script type="text/javascript">
+                    const python = document.getElementById('python');
+                    const cpp = document.getElementById('cpp');
+                    const js = document.getElementById('js');
+                    const ts = document.getElementById('ts');
+                    const java = document.getElementById('java');
+                    const ruby = document.getElementById('ruby');
+                    const c = document.getElementById('c');
+                    const html = document.getElementById('html');
+                    const css = document.getElementById('css');
+                    const php = document.getElementById('php');
+                    var getIdk = `<%- JSON.stringify(data);  %>`
+                    python.addEventListener('click', () => {
+                        console.log(getIdk);
+                    })
+                </script>
+
+
+</body>
+
+</html>

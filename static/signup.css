@@ -9,21 +9,15 @@
 }
 
 .row{
-<<<<<<< HEAD
-=======
     
     border: 2px solid black;
->>>>>>> ec68c9f2d4b677abc709a42f6d27541901418b60
     border-radius: 5px;
     width:auto;
     padding: 0;
 }
 
 .signup{
-<<<<<<< HEAD
-=======
     border: solid black 2px;
->>>>>>> ec68c9f2d4b677abc709a42f6d27541901418b60
     margin-top: 0px;
     height: 100vh;
     width: 60vw;
