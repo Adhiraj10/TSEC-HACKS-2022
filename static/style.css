@@ -95,3 +95,29 @@ body{
 }
 
     
+.footer{
+
+
+    
+    
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 35vh;
+    width: 100%;
+    padding: 50px;
+}
+.footer-link-container{
+
+    list-style: none;
+    
+
+
+
+}
+
+.footer-link-container li a{
+    
+    
+    text-decoration: none;
+}
